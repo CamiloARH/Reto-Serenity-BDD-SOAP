@@ -4,7 +4,7 @@
    <soapenv:Body>\r
       <ns:CelsiusToFahrenheit>\r
          <!--Optional:-->\r
-         <ns:Celsius>0</ns:Celsius>\r
+         <ns:Celsius>sf</ns:Celsius>\r
       </ns:CelsiusToFahrenheit>\r
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://www.w3schools.com/xml/CelsiusToFahrenheit"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="4b948fa8-619a-420f-8275-4efb8356303a" isOneWay="false" action="https://www.w3schools.com/xml/FahrenheitToCelsius" name="FahrenheitToCelsius" bindingOperationName="FahrenheitToCelsius" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="23efe59c-0f85-41fd-9484-420cd00e3d9d" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.w3schools.com/xml/tempconvert.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="https://www.w3schools.com/xml/">\r
